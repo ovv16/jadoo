@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230717180015">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll-show class="header">
+			<div class="header__container">
+				<a href="index" class="header__logo">
+					<img src="img/logo/Logo.svg" alt="Logo Jadoo">
+				</a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">
+									Desitnations
+								</a></li>
+							<li class="menu__item"><a href="" class="menu__link">
+									Hotels
+								</a></li>
+							<li class="menu__item"><a href="" class="menu__link">
+									Flights
+								</a></li>
+							<li class="menu__item"><a href="" class="menu__link">
+									Bookings
+								</a></li>
+						</ul>
+						<div class="menu__action action-header">
+							<button type="button" class="action-header__login">Login</button>
+							<button type="button" class="action-header__sing-up">Sing Up</button>
+							<select name="form[]" data-class-modif="lang">
+								<option value="1" selected>EN</option>
+								<option value="2">UA</option>
+								<option value="2">DE</option>
+							</select>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div id="video" aria-hidden="true" class="popup">
+				<div class="popup__wrapper">
+					<div class="popup__content">
+						<button data-close type="button" class="popup__close"></button>
+						<div data-youtube-place class="popup__text">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="popup-message" aria-hidden="true" class="popup">
+				<div class="popup__wrapper popup__wrapper_massege">
+					<div class="popup__content popup__content_massege">
+						<button data-close type="button" class="popup__close">x</button>
+						<div class="popup__text popup__text_massege">
+							form send!
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="page__main main">
+				<div class="main__container">
+					<div class="main__body">
+						<div class="main__label">Best Destinations around the world</div>
+						<h1 class="main__title">Travel, <span>enjoy</span>
+							and live a new
+							and full life</h1>
+						<div class="main__text">
+							Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it
+							engrossed listening. Park gate sell they west hard for the.
+						</div>
+						<div class="main__actions">
+							<a href="#" class="main__button">
+								Find out more
+							</a>
+							<button type="button" data-popup="#video" data-popup-youtube="DEJ_ma-gvsM" class="main__play _icon-polygon">
+								Play Demo
+							</button>
+						</div>
+					</div>
+					<div class="main__media media-main">
+						<div data-prlx-mouse class="media-main__plane media-main__plane_1">
+							<img src="img/hero/plane.svg" alt="plane">
+						</div>
+						<div data-prlx-mouse class="media-main__plane media-main__plane_2">
+							<img src="img/hero/plane.svg" alt="plane">
+						</div>
+						<div data-prlx-mouse class="media-main__image">
+							<picture><source srcset="img/hero/traveller.webp" type="image/webp"><img src="img/hero/traveller.png" alt="traveller girl"></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__services services">
+				<div class="services__container">
+					<div class="services__header header-block">
+						<div class="header-block__label">CATEGORY</div>
+						<h2 class="header-block__title">We Offer Best Services</h2>
+					</div>
+					<div class="services__items">
+						<article class="services__item item-services">
+							<div class="item-services__icon">
+								<img src="img/category/content/calculate_weather.svg" alt="">
+							</div>
+							<h3 class="item-services__title">
+								Calculated Weather
+							</h3>
+							<div class="item-services__text">
+								Built Wicket longer admire do barton vanity itself do in it.
+							</div>
+						</article>
+						<article class="services__item item-services">
+							<div class="item-services__icon">
+								<img src="img/category/content/airplane.svg" alt="">
+							</div>
+							<h3 class="item-services__title">
+								Best Flights
+							</h3>
+							<div class="item-services__text">
+								Engrossed listening. Park gate sell they west hard for the.
+							</div>
+						</article>
+						<article class="services__item item-services">
+							<div class="item-services__icon">
+								<img src="img/category/content/microthone.svg" alt="">
+							</div>
+							<h3 class="item-services__title">
+								Local Events
+							</h3>
+							<div class="item-services__text">
+								Barton vanity itself do in it. Preferd to men it engrossed listening.
+							</div>
+						</article>
+						<article class="services__item item-services">
+							<div class="item-services__icon">
+								<img src="img/category/content/cust.svg" alt="">
+							</div>
+							<h3 class="item-services__title">
+								Customization
+							</h3>
+							<div class="item-services__text">
+								We deliver outsourced aviation services for military customers
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="page__selling selling">
+				<div class="selling__container">
+					<div class="selling__header header-block">
+						<div class="header-block__label">Top Selling</div>
+						<h2 class="header-block__title">Top Destinations</h2>
+					</div>
+					<div class="selling__items">
+						<article class="selling__item item-selling">
+							<a href="#" class="item-selling__image-ibg">
+								<picture><source srcset="img/top_selling/content/rome.webp" type="image/webp"><img src="img/top_selling/content/rome.jpg" alt="Rome"></picture>
+							</a>
+							<div class="item-selling__body">
+								<div class="item-selling__location">Rome, Italty</div>
+								<div class="item-selling__price">$5,42k</div>
+								<div class="item-selling__trip _icon-direct">10 Days Trip</div>
+							</div>
+						</article>
+						<article class="selling__item item-selling">
+							<a href="#" class="item-selling__image-ibg">
+								<picture><source srcset="img/top_selling/content/london.webp" type="image/webp"><img src="img/top_selling/content/london.jpg" alt="London"></picture>
+							</a>
+							<div class="item-selling__body">
+								<div class="item-selling__location">London, UK</div>
+								<div class="item-selling__price">$4.2k</div>
+								<div class="item-selling__trip _icon-direct">12 Days Trip</div>
+							</div>
+						</article>
+						<article class="selling__item item-selling">
+							<a href="#" class="item-selling__image-ibg">
+								<picture><source srcset="img/top_selling/content/europa.webp" type="image/webp"><img src="img/top_selling/content/europa.jpg" alt="Europa"></picture>
+							</a>
+							<div class="item-selling__body">
+								<div class="item-selling__location">Full Europe</div>
+								<div class="item-selling__price">$15k</div>
+								<div class="item-selling__trip _icon-direct">28 Days Trip</div>
+							</div>
+						</article>
+
+					</div>
+				</div>
+			</section>
+			<section class="page__steps steps">
+				<div class="steps__container">
+					<div class="steps__content">
+						<div class="steps__header header-block">
+							<div class="header-block__label">Easy and Fast</div>
+							<h2 class="header-block__title">Book your next trip
+								in 3 easy steps</h2>
+						</div>
+						<div class="steps__items">
+							<div class="steps__item item-step">
+								<div class="item-step__icon item-step__icon_1">
+									<img src="img/easy_and_fast/choose.svg" alt="image">
+								</div>
+								<div class="item-step__body">
+									<h4 class="item-step__title">
+										Choose Destination
+									</h4>
+									<div class="item-step__text">
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Urna, tortor tempus.
+									</div>
+								</div>
+							</div>
+							<div class="step__item item-step">
+								<div class="item-step__icon item-step__icon_2">
+									<img src="img/easy_and_fast/water-sport.svg" alt="image">
+								</div>
+								<div class="item-step__body">
+									<h4 class="item-step__title">
+										Make Payment
+									</h4>
+									<div class="item-step__text">
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Urna, tortor tempus.
+									</div>
+								</div>
+							</div>
+							<div class="step__item item-step">
+								<div class="item-step__icon item-step__icon_3">
+									<img src="img/easy_and_fast/taxi.svg" alt="image">
+								</div>
+								<div class="item-step__body">
+									<h4 class="item-step__title">
+										Reach Airport on Selected Date
+									</h4>
+									<div class="item-step__text">
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Urna, tortor tempus.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="steps__info-card">
+						<div class="info-card">
+							<a href="#" class="info-card__image-ibg">
+								<picture><source srcset="img/easy_and_fast/content/woman_in_greece.webp" type="image/webp"><img src="img/easy_and_fast/content/woman_in_greece.jpg" alt="Woman in greece"></picture>
+							</a>
+							<div class="info-card__body">
+								<a href="" class="info-card__title">
+									Trip To Greece
+								</a>
+								<div class="info-card__info">
+									<div class="info-card__date">
+										14-29 June
+									</div>
+									<div class="info-card__org">
+										by Robbin joseph
+									</div>
+								</div>
+								<div class="info-card__actions actions-info-card">
+									<a href="" class="actions-info-card__item _icon-leaf"></a>
+									<a href="" class="actions-info-card__item _icon-map"></a>
+									<a href="" class="actions-info-card__item _icon-loc"></a>
+								</div>
+								<div class="info-card__footer">
+									<div class="info-card__people _icon-bilding">
+										24 people going
+									</div>
+									<button type="button" data-tippy-content class="info-card__favorite _icon-hurt"></button>
+								</div>
+								<div id="ongoing" class="info-card__ongoing ongoing-info-card">
+									<div class="ongoing-info-card__image">
+										<picture><source srcset="img/easy_and_fast/image.webp" type="image/webp"><img src="img/easy_and_fast/image.jpg" alt="image"></picture>
+									</div>
+									<div class="ongoing-info-card__body">
+										<div class="ongoing-info-card__lebel">Ongoing</div>
+										<div class="ongoing-info-card__title">Trip to rome</div>
+										<div class="ongoing-info-card__completed completed-info-card">
+											<div class="completed-info-card__text">
+												<span>40%</span> completed
+											</div>
+											<div class="completed-info-card__line">
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__testimonials testimonials">
+				<div class="testimonials__container">
+					<div class="testimonials__content">
+						<div class="testimonials__header header-block">
+							<div class="header-block__label">Testimonials</div>
+							<h2 class="header-block__title">What people say
+								about Us.</h2>
+						</div>
+						<div data-da=".testimonials__body, 991.98" class="testimonials__dotts"></div>
+					</div>
+					<!-- Оболонка слайдера -->
+					<div class="testimonials__body">
+						<div class="testimonials__slider swiper">
+							<!-- Частина слайдера, що рухається -->
+							<div class="testimonials__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="testimonials__slide swiper-slide">
+									<div class="slide-testimonials">
+										<div class="slide-testimonials__avatar">
+											<picture><source srcset="img/testimonials/image.webp" type="image/webp"><img src="img/testimonials/image.jpg" alt="image"></picture>
+										</div>
+										<div class="slide-testimonials__text">
+											“On the Windows talking painted pasture yet its express parties use. Sure
+											last
+											upon he same as knew next. Of believed or diverted no.”
+										</div>
+										<div class="slide-testimonials__name">Mike taylor</div>
+										<div class="slide-testimonials__position">Lahore, Pakistan</div>
+									</div>
+								</div>
+								<div class="testimonials__slide swiper-slide">
+									<div class="slide-testimonials">
+										<div class="slide-testimonials__avatar">
+											<picture><source srcset="img/testimonials/image.webp" type="image/webp"><img src="img/testimonials/image.jpg" alt="image"></picture>
+										</div>
+										<div class="slide-testimonials__text">
+											“On the Windows talking painted pasture yet its express parties use. Sure
+											last
+											upon he same as knew next. Of believed or diverted no.”
+										</div>
+										<div class="slide-testimonials__name">Chris Thomas</div>
+										<div class="slide-testimonials__position">CEO of Red Button</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+						<div class="testimonials__arrows">
+							<button type="button" class="testimonials__arrow swiper-button-prev">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" fill="none" viewBox="0 0 16 10">
+									<path stroke="#3E2E4D" stroke-linecap="round" stroke-width="2" d="m1 1 7 7 7-7" />
+								</svg>
+							</button>
+							<button type="button" class="testimonials__arrow swiper-button-next">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" fill="none" viewBox="0 0 16 10">
+									<path stroke="#3E2E4D" stroke-linecap="round" stroke-width="2" d="m1 1 7 7 7-7" />
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="page__clients clients">
+				<div class="clients__container">
+					<div class="clients__items">
+						<a href="" class="clients__item">
+							<picture><source srcset="img/testimonials/axon.webp" type="image/webp"><img src="img/testimonials/axon.png" alt="Axon"></picture>
+						</a>
+						<a href="" class="clients__item">
+							<picture><source srcset="img/testimonials/jetstar.webp" type="image/webp"><img src="img/testimonials/jetstar.png" alt="Jetstar"></picture>
+						</a>
+						<a href="" class="clients__item">
+							<picture><source srcset="img/testimonials/expedia.webp" type="image/webp"><img src="img/testimonials/expedia.png" alt="Expendia"></picture>
+						</a>
+						<a href="" class="clients__item">
+							<picture><source srcset="img/testimonials/qantas.webp" type="image/webp"><img src="img/testimonials/qantas.png" alt="Qantas"></picture>
+						</a>
+						<a href="" class="clients__item">
+							<picture><source srcset="img/testimonials/alitalia.webp" type="image/webp"><img src="img/testimonials/alitalia.png" alt="Alitalia"></picture>
+						</a>
+					</div>
+				</div>
+			</div>
+			<section class="page__subscribe subscribe">
+				<div class="subscribe__container">
+					<div class="subscribe__body">
+						<h2 class="subscribe__title">
+							Subscribe to get information, latest news and other
+							interesting offers about Jadoo
+						</h2>
+						<form data-dev data-popup-message="#popup-message" class="subscribe__form" method="POST">
+							<div class="subscribe__input _icon-email">
+								<input data-required="email" type="text" name="form[email]" data-error="Error" placeholder="E-mail" class="input">
+							</div>
+							<button type="submit" class="subscribe__button">Subscribe</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__info">
+					<a href="index" class="footer__logo">
+						Jadoo.
+					</a>
+					<div class="footer__text">
+						<p>Book your trip in minute, get full</p>
+						<p>Control for much longer.</p>
+					</div>
+				</div>
+				<nav data-spollers="768, max" class="footer__menu menu-footer">
+					<details class="menu-footer__column">
+						<summary class="menu-footer__title spollers__title">Company</summary>
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">About</a>
+								<a href="#" class="menu-footer__link">Careers</a>
+								<a href="#" class="menu-footer__link">Mobile</a>
+							</li>
+						</ul>
+					</details>
+					<details class="menu-footer__column">
+						<summary class="menu-footer__title spollers__title">Contact</summary>
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Help/FAQ</a>
+								<a href="#" class="menu-footer__link">Press</a>
+								<a href="#" class="menu-footer__link">Affilates</a>
+							</li>
+						</ul>
+					</details>
+					<details class="menu-footer__column">
+						<summary class="menu-footer__title spollers__title">More</summary>
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Airlinefees</a>
+								<a href="#" class="menu-footer__link">Airline</a>
+								<a href="#" class="menu-footer__link">Low fare tips</a>
+							</li>
+						</ul>
+					</details>
+				</nav>
+				<div class="footer__actions">
+					<div class="footer__social social-footer">
+						<a href="#" class="social-footer__item _icon-facebook">
+						</a>
+						<a href="#" class="social-footer__item _icon-instgr">
+						</a>
+						<a href="#" class="social-footer__item _icon-twitter">
+						</a>
+					</div>
+					<div class="footer__app app-footer">
+						<h4 class="app-footer__title">
+							Discover our app
+						</h4>
+						<a href="" class="app-footer__item">
+							<picture><source srcset="img/footer/applestore.webp" type="image/webp"><img src="img/footer/applestore.png" alt="apple store"></picture>
+						</a>
+						<a href="" class="app-footer__item">
+							<picture><source srcset="img/footer/playmarket.webp" type="image/webp"><img src="img/footer/playmarket.png" alt=" play market"></picture>
+						</a>
+					</div>
+				</div>
+				<div class="footer__column">
+					<div class="footer__copy">
+						All rights reserved@jadoo.co
+					</div>
+					<div class="footer__father">
+						<img src="img/logo/logo_ovv_2.svg" alt="">
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230717180015"></script>
+</body>
+
+</html>
